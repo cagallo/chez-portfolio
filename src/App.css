@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .App-logo {
@@ -39,8 +42,8 @@
 
 .intro {
   color: #F5AFBB;
-  margin-top: 20%;
-  margin-left: 7%;
+  margin-top: 10%;
+  margin-left: 25%;
   margin-bottom: 0;
   font-size: 3em;
 }
@@ -49,20 +52,38 @@
   color: #FAF9F6;
   font-size: 5em;
   margin-top: 0;
-  margin-left: 10%;
+  margin-left: 30%;
   margin-bottom: 0;
 }
 
 .info {
   color: #D3D3D3;
   margin-top: 0;
-  margin-left: 10%;
+  margin-left: 30%;
   width: 50%;
-  font-weight: bold;`
-  font-size:larger
+  font-weight: bolder;
+  font-size:larger;
 }
 
 .hyperlink {
   text-decoration: none;
   color: #D3D3D3;
+}
+
+button {
+  border: 2px solid #F5AFBB;
+  cursor: pointer;
+  background-color: transparent;
+  color: #F5AFBB;
+  border-radius: 0.25em;
+  margin-left: 30%;
+  margin-top: 1.5%;
+  height: 60%;
+  width: 20%;
+  padding: 1.25rem 1.75rem;
+  font-size: 18px;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bolder;
+  line-height: 1;
+
 }

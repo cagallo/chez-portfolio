@@ -1,6 +1,8 @@
 nav {
     display: flex;
     justify-content: flex-end;
+    margin-right: 4%;
+    margin-top: 2%;
 }
 
 .navlink {
@@ -8,5 +10,12 @@ nav {
     color: #FAF9F6;
     text-decoration: none;
     font-size: large;
+    font-weight: bold;
+}
+
+.logo {
+    width: 45%;
+    height: 100%;
+    margin-left: 4%;
 }
 

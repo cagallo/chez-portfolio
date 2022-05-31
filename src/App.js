@@ -16,6 +16,7 @@ export const App = () => {
         <a href='https://www.coupa.com/' className='hyperlink' target='_blank' rel='noreferrer'> Coupa Software</a>
       .
       </p>
+      <button>Get in Touch</button>
     </div>
   )
 }
