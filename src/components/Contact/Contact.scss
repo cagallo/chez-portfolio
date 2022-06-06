@@ -1,0 +1,37 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 3em;
+  font-weight: bolder;
+  color: #F5AFBB;
+  margin-bottom: 0;
+}
+.msg {
+  width: 30%;
+  text-align: center;
+  color: #FAF9F6;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.mailer {
+  border: 2px solid #F5AFBB;
+  cursor: pointer;
+  background-color: transparent;
+  color: #F5AFBB;
+  border-radius: 0.25em;
+  margin-top: 1.5%;
+  height: 30%;
+  width: 15%;
+  padding: 1.25rem 1.75rem;
+  font-size: 18px;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: bolder;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+}
