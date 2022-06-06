@@ -1,0 +1,19 @@
+// .projects-grid {
+//   display: grid;
+//   grid-template-columns: 50% 50%;
+//   grid-gap: 10em;
+//   margin: 5% 0 5% 10%;
+// }
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-headline {
+  font-size: 3.5em;
+  text-align: center;
+  color: #F5AFBB;
+  font-weight: bolder;
+  margin-bottom: 2%;
+}
