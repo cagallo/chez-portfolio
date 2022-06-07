@@ -1,6 +1,8 @@
+import './Experience.scss'
+
 const Experience = () => {
     return (
-        <h1>Software Engineer- Coupa Software</h1>
+        <h1 className="experience-header">03. Where I've Worked</h1>
     )
 }
 

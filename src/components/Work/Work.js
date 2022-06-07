@@ -29,7 +29,7 @@ const Work = () => {
 
     return (
         <div className="projects">
-            <h1 className="projects-headline">04. Check Out My Projects</h1>
+            <h1 className="projects-headline">04. Some Things I've Built</h1>
             { error && error }
             <section className="projects-grid">
                 { projects.map(project => {
