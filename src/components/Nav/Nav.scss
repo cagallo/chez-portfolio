@@ -16,16 +16,15 @@ nav {
 .logo {
     width: 45%;
     height: 100%;
-    margin-left: 4%;
 }
 
 .menu {
     display: flex;
-    margin-right: 15%;
+    margin-right: 17%;
 }
 
 li {
-    margin: 5%
+    margin: 6%
 }
 
 ol {
@@ -33,3 +32,7 @@ ol {
     color: #F5AFBB;
 }
 
+a.active {
+  border-bottom: 4px solid #F5AFBB;
+  padding: 5%;
+}
