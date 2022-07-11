@@ -1,3 +1,1 @@
-export const projects = [
-    
-]
+export const projects = [];
