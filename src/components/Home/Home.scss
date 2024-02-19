@@ -36,12 +36,16 @@
     border-radius: 0.25em;
     margin-left: 30%;
     margin-top: 1.5%;
-    height: 60%;
-    width: 20%;
+    height: 90%;
+    width: 100%;
     padding: 1.25rem 1.75rem;
     font-size: 1.6em;
     font-family: 'Thasadith', sans-serif;
     font-weight: bolder;
     line-height: 1;
-  
+  }
+
+  .link-container {
+    display: flex;
+    justify-content: center ;
   }

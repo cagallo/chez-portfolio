@@ -53,6 +53,7 @@ const About = () => {
               <li>Node.js</li>
               <li>GraphQL</li>
               <li>Postgres</li>
+              <li>Python</li>
               <li>Express.js</li>
             </ul>
           </div>
