@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import { myProjects } from '../../data/projects';
 import './Work.scss';
 
 const Work = () => {
+  // eslint-disable-next-line no-unused-vars
   const [projects, setProjects] = useState(myProjects);
   // const [error, setError] = useState("");
 
