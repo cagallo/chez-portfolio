@@ -103,7 +103,7 @@ export const myProjects = [
     description:
       'Rancid Tomatillos is an easy-to-use web application for viewing movie posters, details and trailers.',
     github_repository: 'https://github.com/cagallo/rancid-tomatillos',
-    external_link: 'https://rancid-tomatillos2110.herokuapp.com/',
+    external_link: null,
     project_type: 'pair',
     tech_stack: [
       'React',
@@ -125,7 +125,7 @@ export const myProjects = [
     description:
       'Welcome to Book Club--your new go-to app where you can find out all the details about the latest bestsellers! If you are a book lover, you have come to the right place.',
     github_repository: 'https://github.com/cagallo/book-club-ui',
-    external_link: 'https://book-club-ui.herokuapp.com/',
+    external_link: null,
     project_type: 'group',
     tech_stack: [
       'React',
@@ -147,7 +147,7 @@ export const myProjects = [
     description:
       'Book Club API is a collection of books taken from the NY Times best sellers list. It was created to accompany Book Club UI',
     github_repository: 'https://github.com/cagallo/book-club-ui',
-    external_link: 'https://book-club-api-2110.herokuapp.com/api/v1/books',
+    external_link: null,
     project_type: 'group',
     tech_stack: [
       'Express',
@@ -166,7 +166,7 @@ export const myProjects = [
     description:
       'Trivia Night is an trivia questions game that allows the user to test their trivia knowledge from a variety of topics or choose a mix of questions from all categories.',
     github_repository: 'https://github.com/cagallo/trivia-night-ui',
-    external_link: 'https://trivia-night-ui.herokuapp.com/',
+    external_link: null,
     project_type: 'solo',
     tech_stack: [
       'React',
@@ -187,8 +187,7 @@ export const myProjects = [
     description:
       'Trivia Questions API is a collection of trivia questions from various categories and it was created to accompany Trivia Night UI',
     github_repository: 'https://github.com/cagallo/trivia-questions-api',
-    external_link:
-      'https://trivia-night-api-2110.herokuapp.com/api/v1/questions/all',
+    external_link: null,
     project_type: 'solo',
     tech_stack: [
       'Express',
