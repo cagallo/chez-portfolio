@@ -1,0 +1,98 @@
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 24px;
+}
+
+.bm-burger-bars {
+  background: whitesmoke;
+}
+
+.bm-burger-bars-hover {
+  background: lightblue;
+}
+
+.bm-cross-button {
+  height: 3em !important;
+  width: 3em !important;
+}
+
+.bm-cross {
+  background: whitesmoke;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: #f5afbb;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.75em;
+}
+
+.bm-morph-shape {
+  fill: #1161e4;
+}
+
+.bm-item-list {
+  color: #1161e4;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+  font-weight: bolder;
+  color: #1161e4;
+  margin-bottom: 0.5em;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: black;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .bm-burger-button {
+    top: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .bm-burger-button {
+    top: 54px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bm-burger-button {
+    top: 56px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  .bm-burger-button {
+    top: 36px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .bm-burger-button {
+    top: 36px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .bm-burger-button {
+    top: 33px;
+  }
+}

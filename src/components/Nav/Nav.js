@@ -11,7 +11,7 @@ const Nav = () => {
           <img className='logo' src={logo} alt='chez gallo icon'></img>
         </Link>
       </div>
-      <ol className='menu'>
+      <ol className='menu mobile-hidden' >
         <li>
           <NavLink to='/' className='navlink'>
             Home

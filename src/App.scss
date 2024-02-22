@@ -40,6 +40,18 @@
   }
 }
 
+@media (min-width: 1281px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
 // .intro {
 //   color: #F5AFBB;
 //   margin-top: 10%;
