@@ -13,7 +13,7 @@ const MobileMenu = () => {
       <NavLink to='/about' className='bm-item'>
         About
       </NavLink>
-      <NavLink to='/projects' className='bm-item'>
+      <NavLink to='/work' className='bm-item'>
         Projects
       </NavLink>
       <NavLink to='/contact' className='bm-item'>

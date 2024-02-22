@@ -32,7 +32,7 @@ const Work = () => {
       <h1 className='projects-headline'>03. Some Things I've Built</h1>
       {/* {error && error} */}
       <section className='projects-grid'>
-        {projects.map((project) => {
+        {[...projects].reverse().map((project) => {
           console.log(project);
           return <ProjectCard key={project.id} project={project} />;
         })}
