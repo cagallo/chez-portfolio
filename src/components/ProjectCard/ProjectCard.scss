@@ -134,3 +134,21 @@
   text-align: center;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .project-card {
+    grid-template-columns: none;
+    height: max-content;
+  }
+
+  .project-info-left {
+    width: 70%;
+    margin-left: 1%;
+  }
+
+  .project-info-right {
+    width: 77%;
+    margin-left: 1%;
+    padding: none;
+  }
+}

@@ -35,3 +35,13 @@
   text-align: center;
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .msg {
+    width: 75%;
+  }
+
+  .mailer {
+    width: 25%;
+  }
+}

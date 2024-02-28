@@ -49,3 +49,30 @@
     display: flex;
     justify-content: center ;
   }
+
+  @media screen and (max-width: 600px) {
+    .info {
+      width: 85%;
+      margin-left: 10%;
+      margin-top: 5%;
+    }
+
+    .name {
+      font-size: 3em;
+      margin-left: 40%;
+    }
+
+    .intro {
+      margin-left: 10%;
+    }
+
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      margin-right: 40%;
+    }
+
+    button {
+      margin-top: 10%;
+    }
+  }

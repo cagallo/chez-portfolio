@@ -84,3 +84,14 @@
   border: 2px solid #F5AFBB;
   border-radius: 4%;
 }
+
+
+@media screen and (max-width: 600px) {
+  .hello {
+    width: 83%;
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+  }
+  }
